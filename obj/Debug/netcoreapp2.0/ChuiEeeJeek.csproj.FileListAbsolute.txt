@@ -1,0 +1,10 @@
+D:\studyAzure\ChuiEeeJeek\bin\Debug\netcoreapp2.0\ChuiEeeJeek.deps.json
+D:\studyAzure\ChuiEeeJeek\bin\Debug\netcoreapp2.0\ChuiEeeJeek.runtimeconfig.json
+D:\studyAzure\ChuiEeeJeek\bin\Debug\netcoreapp2.0\ChuiEeeJeek.runtimeconfig.dev.json
+D:\studyAzure\ChuiEeeJeek\bin\Debug\netcoreapp2.0\ChuiEeeJeek.dll
+D:\studyAzure\ChuiEeeJeek\bin\Debug\netcoreapp2.0\ChuiEeeJeek.pdb
+D:\studyAzure\ChuiEeeJeek\obj\Debug\netcoreapp2.0\ChuiEeeJeek.csproj.CoreCompileInputs.cache
+D:\studyAzure\ChuiEeeJeek\obj\Debug\netcoreapp2.0\ChuiEeeJeek.AssemblyInfoInputs.cache
+D:\studyAzure\ChuiEeeJeek\obj\Debug\netcoreapp2.0\ChuiEeeJeek.AssemblyInfo.cs
+D:\studyAzure\ChuiEeeJeek\obj\Debug\netcoreapp2.0\ChuiEeeJeek.dll
+D:\studyAzure\ChuiEeeJeek\obj\Debug\netcoreapp2.0\ChuiEeeJeek.pdb

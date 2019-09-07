@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Resume";
+};
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+
+<form class="form-vertical" method="POST" asp-controller="Resume" asp-action="Resume">
+    <div class="form-group">
+        <textarea name="context" id="context" cols="100" rows="10"></textarea>
+    </div>
+    <div class="form-group">
+        <input type='radio' name="Separator" id="Separator" value="." checked="checked">
+        <label>separator : . (dot)</label><br/>
+        <input type='radio' name="Separator" id="Separator" value="blank">
+        <label>separator :  (blank)</label><br/>
+        <input type='radio' name="Separator" id="Separator" value="\n">
+        <label>separator : \n (Next Line)</label><br/>
+    </div>
+    <br/>
+    <div class="form-group">
+        <button type="submit" class="btn btn-success">SUBMIT</button>
+    </div>
+    
+
+    <div>
+        @if (ViewBag.partialContext != null ) {
+            @foreach (var item in ViewBag.partialContext)
+            {
+                <text>@item.Context</text>
+                <br/>
+            }
+        }
+    </div>
+</form>

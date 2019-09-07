@@ -5,6 +5,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using ChuiEeeJeek.Models;
+using System.Net.Http;
+using System.Text;
+// Install Newtonsoft.Json with NuGet
+using Newtonsoft.Json;
 
 namespace ChuiEeeJeek.Controllers
 {
@@ -15,10 +19,10 @@ namespace ChuiEeeJeek.Controllers
             return View();
         }
 
-        public IActionResult About()
+        public IActionResult Resume()
         {
-            ViewData["Message"] = "Your application description page.";
-
+            //ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Submit Your Resume. Try!!";
             return View();
         }
 
